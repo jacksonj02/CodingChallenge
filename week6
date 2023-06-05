@@ -1,0 +1,3 @@
+function detectWord(str) {
+	return [...str].filter(c => c.toLowerCase()===c).join('')
+}
